@@ -1,0 +1,337 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+.tagline {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100%;
+  font-family: 'Quicksand', sans-serif;
+  padding: 70px 100px 0px 140px;
+  text-align: right;
+}
+body {
+   background: url("woodfloor.png");
+   background-size: 100% 100%;
+   background-repeat: repeat;
+}
+.nav-down {
+  padding-top: 2px;
+  padding-left: 10px;
+  margin-right: 80px;
+}
+.primary-nav {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+.primary-header a,
+.primary-footer a {
+  color: #4351C0;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #fff;
+}
+.lg-container {
+  background-color: #FBAC9B;
+  background-color: rgba(255,255,255, 0.7);
+  background-image: url("pinkrose.gif");
+  background-size: 230px 300px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  box-shadow: 10px 10px 5px  #000000;
+  margin-top: -80px;
+  padding-right: 45px;
+  margin-bottom: 145px;
+  margin-left: 145px;
+  width: 80%;
+}
+h2 {
+  font-family: 'Quicksand', sans-serif;
+}
+h3 {
+  color: #7E4672;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+}
+
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+  padding-left: 200px;
+  text-align: center;
+  margin-bottom: 100px;
+  padding-top: 100px;
+}
+.nav a {
+  padding-left: 27px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  background-size: 100%;
+  box-shadow: 7px 10px 5px #000000;
+
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+} 
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  padding-left: 30px;
+}
+.col-1-3 {
+  width: 33.33%;
+  font-weight: 600;
+} .col-2-3 {
+  width: 60%;
+}
+.col-1-3,
+.col-2-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+.grid,
+.col-1-3,
+.col-2-3 {
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-bottom: 140px;
+}
+.container,
+.grid {
+  width: 700px;
+}
+.container {
+  padding-left: 10px;
+}
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  color: #FED9F5;
+  text-decoration: none;
+}
+a:hover {
+  color: #FE8DE5;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+/*  ========================================
+  Home
+  ========================================
+*/
+
+.hero {
+  color: #7E4672;
+  font-weight: 600;
+  padding: 30px 70px 100px 20px;
+  float: left;
+}
+.hero h2 {
+  font-size: 24px;
+  font-family: 'Quicksand', sans-serif;
+}
+.hero p {
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+p {
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.container {
+  clear: both;
+  *zoom: 1;
+}
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo {
+  float: left;
+  font-size: 55px;
+  font-weight: 50;
+  letter-spacing: .5px;
+  line-height: 55px;
+  padding: 100px 0px 30px 140px;
+  margin: o o o 50px;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive, Arial, serif;
+}
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+.primary-footer a {
+  color: #fff;
+  padding-left: 30px;
+}
+.primary-footer a:hover {
+  color: #FED9F5;
+}
+
+.primary-footer {
+  color: #FED9F5;
+  font-size: 20px;
+  font-weight: 100%;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: -120px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.primary-footer small {
+  color: #fff;
+  font-weight: 400;
+  padding-left: 30px;
+}
+/*
+  ========================================
+  Media Queries
+  ========================================
+*/
+@media (max-width: 800px) {
+    a {
+        color: red;
+    }
+  img {
+    display: none;
+  }
+}
+  @media (max-width: 725px) {
+    a {
+        color: blue;
+    }
+  img {
+    display: none;
+  }
+}
+  @media (max-width: 667px) {
+    a {
+        color: pink;
+    }
+  img {
+    display: none;
+  }
+}
+  @media (max-width: 414px) {
+
+    }
+    a {
+        color: blue;
+    }
+  img {
+    display: none;
+  }
+}
+  @media (max-width: 300px) {
+    a {
+        color: pink;
+    }
+  img {
+    display: none;
+  }
+
+}
+
